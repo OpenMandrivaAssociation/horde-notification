@@ -16,10 +16,8 @@ Requires(pre): %{_bindir}/pear
 Requires:      php-pear
 Requires:      php-pear-channel-horde
 Requires:      php-gettext
-BuildRequires: horde-framework
 BuildRequires: php-pear
-BuildRequires: php-pear-channel-horde
-BuildRoot:      %{_tmppath}/%{name}-%{version}
+
 
 %description
 The Notification:: class provides a subject-observer pattern for raising and
