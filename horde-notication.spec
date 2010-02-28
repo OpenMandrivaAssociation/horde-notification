@@ -28,7 +28,7 @@ showing messages of different types and to different listeners.
 %setup -q -n %{prj}-%{version}
 
 %build
-%__mv ../package*.xml .
+%__mv ../package.xml .
 
 %install
 pear install --packagingroot %{buildroot} --nodeps package.xml
