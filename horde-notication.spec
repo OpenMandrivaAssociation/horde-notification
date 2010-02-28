@@ -17,6 +17,7 @@ Requires:      php-pear
 Requires:      php-pear-channel-horde
 Requires:      php-gettext
 BuildRequires: php-pear
+BuildRequires: php-pear-channel-horde
 
 
 %description
