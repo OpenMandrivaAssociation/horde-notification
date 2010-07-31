@@ -5,7 +5,7 @@
 
 Name:          horde-notification
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       %mkrel 4
 Summary:       Horde Notification System
 License:       LGPL
 Group:         Networking/Mail
