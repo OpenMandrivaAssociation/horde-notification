@@ -62,3 +62,30 @@ fi
 %{peardir}/Horde/Notification/Listener/mobile.php
 %{peardir}/Horde/Notification/Listener/status.php
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-4mdv2011.0
++ Revision: 564078
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2010.1
++ Revision: 524800
+- incread release version to 3
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 523067
+- increased release version to 2
+- add spec with correct name
+- wrong name
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+
+* Sun Feb 28 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 512813
+- chnaged %%__mv ../package*.xml to %%__mv ../package.xml
+- added BuildRequires: php-pear-channel-horde
+- removed BuiildRequires: horde-framework
+- replaced PreReq with Requires(pre)
+- import horde-notification
+
+
